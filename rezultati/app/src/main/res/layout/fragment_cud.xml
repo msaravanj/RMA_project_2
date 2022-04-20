@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <!-- ************ -->
+
+            <TextView
+                android:id="@+id/labelImeDomaci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelImeDomaci" />
+
+            <EditText
+                android:id="@+id/imeDomaci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <!-- ************ -->
+
+            <TextView
+                android:id="@+id/labelimeGosti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelImeGosti" />
+
+            <EditText
+                android:id="@+id/imeGosti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/labelRezultat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelRezultat" />
+
+            <EditText
+                android:id="@+id/rezultat"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/labelDatum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelDatum" />
+
+            <DatePicker
+                android:id="@+id/datum"
+                android:layout_width="match_parent"
+                android:layout_height="291dp"
+                android:datePickerMode="spinner"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/novaUtakmica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelNova" />
+
+            <Button
+                android:id="@+id/uslikaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelUslikaj" />
+
+            <Button
+                android:id="@+id/promijeni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelPromijeni" />
+
+            <Button
+                android:id="@+id/obrisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelObrisi" />
+
+            <Button
+                android:id="@+id/natrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/labelNatrag" />
+
+            <ImageView
+                android:id="@+id/slika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

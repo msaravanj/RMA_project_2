@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rezultati</string>
+    <string name="labelImeDomaci">Ime domaće ekipe</string>
+    <string name="labelImeGosti">Ime gostujuće ekipe</string>
+    <string name="labelRezultat">Rezultat</string>
+    <string name="labelDatum">Datum utakmice</string>
+    <string name="labelNatrag">Natrag</string>
+    <string name="labelSlika">Slika utakmice</string>
+    <string name="labelNova">Dodaj novu utakmicu</string>
+    <string name="labelPromijeni">Promijeni utakmicu</string>
+    <string name="labelObrisi">Obriši utakmicu</string>
+    <string name="labelUslikaj">Uslikaj</string>
+</resources>
